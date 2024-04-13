@@ -1,3 +1,4 @@
+//A function to calculate whether a given year is a leap year or not.
 
 const isLeapYear = (year) => {
     //Step 1: Check if year is evenly divisible by 4, if yes go to step 2. Otherwise, it is not a leap year.
@@ -18,7 +19,7 @@ const isLeapYear = (year) => {
     }
 };
 
-
+//Test the function.
 console.log(isLeapYear(2100));
 console.log(isLeapYear(2000));
 console.log(isLeapYear(1900));
