@@ -1,4 +1,4 @@
-//This is a script to calculate the number of days left until next christmas.
+//This is a script to calculate number of days left until next christmas.
 
 //Logic:
 //1. Get today's date.
@@ -6,7 +6,7 @@
 //3. Create a new Date object for christmas of the current year.
 //4. If christmas has already passed this year, calculate for next year.
 //5. Calculate the difference in time in milliseconds between christmas and today.
-//6. Convert the time difference from milliseconds to days.
+//6. Convert the time difference from milliseconds to days
 
 const daysUntilChristmas = () => {
     const today = new Date();
